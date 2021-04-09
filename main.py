@@ -1,23 +1,19 @@
 from anytree import Node, RenderTree, findall_by_attr
-
+#This file is completely in French !  Sorry English speakers, but you can still understand part of it
 nombreEtages = int(input("nombre d'étages:"))
-
+#Creates first nodes
 prem = Node(1)
 deux = Node(2, parent=prem)
 
 droite = Node(3,parent=deux)
 gauche = Node(1,parent=deux)
-gauche1 = Node(3,parent=gauche)
-droite1 = Node(1,parent=droite)
-droite11 = Node(5,parent=droite)
 somme =[]
-previous = [gauche1,droite1,droite11]
+previous = [gauche,droite]
 somme.append(1)
 somme.append(2)
 somme.append(4)
-somme.append(9)
 ite=2
-for i in range(2,nombreEtages+1):
+for i in range(1,nombreEtages+1):
     liste = []
     for j in range(len(previous)):
         parent = previous[j].parent.name
