@@ -12,7 +12,6 @@ previous = [gauche,droite]
 somme.append(1)
 somme.append(2)
 somme.append(4)
-ite=2
 for i in range(1,nombreEtages+1):
     liste = []
     for j in range(len(previous)):
@@ -34,7 +33,5 @@ while cond == 'y':
     searchNb = int(input("Nombre que tu cherches dans l'arbre :"))
     print("Nombre d'apparitions:",len(findall_by_attr(prem,searchNb,maxlevel=nombreEtages)))
     cond = str(input('Entrer( y ) pour pouvoir tester un second nombre'))
+#keeps the terminal window open
 input()
-
-
-    
