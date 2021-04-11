@@ -2,7 +2,7 @@
  We have been working on this mathematical problem at school during the last month. But one day I figured : My programming skill could help, So I made a script that does all the computing and then displays a tree using the anytree library
 
 
-## Brief explanaition of the problem (in french)
+## Brief explanation of the problem (in french)
 
 ![Description du problème](https://github.com/saadze/Mathematical-Tree-Problem/blob/main/images/brief%20explanation.jpeg)
 
